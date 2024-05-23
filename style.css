@@ -68,3 +68,15 @@ button:active{
 .operation-btn.activ:active{
     background-color: orange;
 }
+@media (max-width: 600px) {
+    #calculator {
+        width: 90%;
+        max-width: none;
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
